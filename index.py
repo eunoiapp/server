@@ -1,7 +1,7 @@
 from flask import Flask, Response, request, __version__
 app = Flask(__name__)
 
-locations = {'Jens': 'home',
+locations = {'Jens': 'Im sorry',
             'Kristin' : 'work'}
 
 
