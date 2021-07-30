@@ -1,8 +1,8 @@
 from flask import Flask, Response, request, __version__
 app = Flask(__name__)
 
-locations = {'Jens': 'Im sorry',
-            'Kristin' : 'work'}
+locations = {'Jens': 'home',
+            'Kristin' : 'home'}
 
 
 @app.route('/location/<name>', methods=['GET', 'PUT'])
